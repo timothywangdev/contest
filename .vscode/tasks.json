@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "g++ build active file",
+      "command": "/usr/local/bin/build.sh",
+      "args": [
+        "${file}"
+      ],
+      "options": {
+        "cwd": "/usr/local/bin"
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "shell",
+      "label": "diff",
+      "command": "/usr/local/bin/diff_testcase.sh",
+      "args": [
+        "${file}"
+      ],
+      "options": {
+        "cwd": "/usr/local/bin"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "version": "2.0.0"
+}

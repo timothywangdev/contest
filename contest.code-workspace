@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.pythonPath": "${workspaceFolder}/projects/LeetCodeAPI/env/bin/python",
+		"git.ignoreLimitWarning": true
+	}
+}
